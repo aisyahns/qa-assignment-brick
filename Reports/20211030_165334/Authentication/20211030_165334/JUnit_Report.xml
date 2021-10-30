@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentication" time="66.747" tests="5" failures="1" errors="0">
+   <testsuite name="Authentication" tests="5" failures="1" errors="0" time="66.747" skipped="0" timestamp="2021-10-30 16:53:49" hostname="Asus - DESKTOP-EQE6D2I" id="Test Suites/Authentication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asus\\Katalon Studio\\first project\\Reports\\20211030_165334\\Authentication\\20211030_165334"/>
+         <property name="logFiles" value="C:\\Users\\Asus\\Katalon Studio\\first project\\Reports\\20211030_165334\\Authentication\\20211030_165334\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-EQE6D2I"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="192.168.203.44"/>
+         <property name="sessionId" value="5bb889bed10578f22039d01ca5b8b068"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up Brick - Failed" time="23.558" classname="Test Cases/Sign Up Brick - Failed" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:53:49 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Failed: Test Cases/Sign Up Brick - Failed
+
+2021-10-30 16:53:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:53:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:53:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:53:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:53:53 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:53:59 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/registerBtn")): Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:53:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorFirstName"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorFirstName' is visible
+
+2021-10-30 16:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorFirstName' is visible
+
+2021-10-30 16:54:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorLastName"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorLastName' is visible
+
+2021-10-30 16:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorLastName' is visible
+
+2021-10-30 16:54:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorEmail"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorEmail' is visible
+
+2021-10-30 16:54:01 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorEmail' is visible
+
+2021-10-30 16:54:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorPass' is visible
+
+2021-10-30 16:54:01 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorPass' is visible
+
+2021-10-30 16:54:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorConfirmPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorConfirmPass' is visible
+
+2021-10-30 16:54:02 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorConfirmPass' is visible
+
+2021-10-30 16:54:02 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/firstNameField"), "aisyah"): Text 'aisyah' is set on object 'Object Repository/Sign Up Page - Brick/firstNameField'
+
+2021-10-30 16:54:02 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/Sign Up Page - Brick/firstNameField'
+
+2021-10-30 16:54:02 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/lastNameField"), "syahidah"): Text 'syahidah' is set on object 'Object Repository/Sign Up Page - Brick/lastNameField'
+
+2021-10-30 16:54:03 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/Sign Up Page - Brick/lastNameField'
+
+2021-10-30 16:54:03 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/emailField"), "aisyah87$%@gmail.com"): Text 'aisyah87$%@gmail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:04 - [MESSAGE][PASSED] - Text 'aisyah87$%@gmail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/errorEmail")): Object: 'Object Repository/Sign Up Page - Brick/errorEmail' is clicked on
+
+2021-10-30 16:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/errorEmail' is clicked on
+
+2021-10-30 16:54:05 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/emailField"), "aisyah@gmail.c"): Text 'aisyah@gmail.c' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:06 - [MESSAGE][PASSED] - Text 'aisyah@gmail.c' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/errorEmail")): Object: 'Object Repository/Sign Up Page - Brick/errorEmail' is clicked on
+
+2021-10-30 16:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/errorEmail' is clicked on
+
+2021-10-30 16:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/emailField"), "aisyah@gmail.com"): Text 'aisyah@gmail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:07 - [MESSAGE][PASSED] - Text 'aisyah@gmail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/phoneNumberField"), "+6282643767"): Text '+6282643767' is set on object 'Object Repository/Sign Up Page - Brick/phoneNumberField'
+
+2021-10-30 16:54:08 - [MESSAGE][PASSED] - Text '+6282643767' is set on object 'Object Repository/Sign Up Page - Brick/phoneNumberField'
+
+2021-10-30 16:54:08 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/addressField"), "sawangan"): Text 'sawangan' is set on object 'Object Repository/Sign Up Page - Brick/addressField'
+
+2021-10-30 16:54:09 - [MESSAGE][PASSED] - Text 'sawangan' is set on object 'Object Repository/Sign Up Page - Brick/addressField'
+
+2021-10-30 16:54:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/passField"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorPass' is visible
+
+2021-10-30 16:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorPass' is visible
+
+2021-10-30 16:54:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/passField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/confirmPassField"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/confirmPassField'
+
+2021-10-30 16:54:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/confirmPassField'
+
+2021-10-30 16:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/registerBtn")): Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:54:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/errorConfirmPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Sign Up Page - Brick/errorConfirmPass' is visible
+
+2021-10-30 16:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/errorConfirmPass' is visible
+
+2021-10-30 16:54:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:54:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up Brick - Success" time="15.332" classname="Test Cases/Sign Up Brick - Success" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:54:13 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Success: Test Cases/Sign Up Brick - Success
+
+2021-10-30 16:54:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:54:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:54:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:54:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:54:14 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:54:19 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:54:19 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/firstNameField"), "Aisyah"): Text 'Aisyah' is set on object 'Object Repository/Sign Up Page - Brick/firstNameField'
+
+2021-10-30 16:54:20 - [MESSAGE][PASSED] - Text 'Aisyah' is set on object 'Object Repository/Sign Up Page - Brick/firstNameField'
+
+2021-10-30 16:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/lastNameField"), "Syahidah"): Text 'Syahidah' is set on object 'Object Repository/Sign Up Page - Brick/lastNameField'
+
+2021-10-30 16:54:21 - [MESSAGE][PASSED] - Text 'Syahidah' is set on object 'Object Repository/Sign Up Page - Brick/lastNameField'
+
+2021-10-30 16:54:21 - [TEST_STEP][PASSED] - randomMail = "testingauto" + RandomStringUtils.randomAlphanumeric(2) + "@mymail.com": null
+
+2021-10-30 16:54:21 - [TEST_STEP][PASSED] - map.put("email", randomMail): null
+
+2021-10-30 16:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/emailField"), randomMail): Text 'testingautoCU@mymail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:22 - [MESSAGE][PASSED] - Text 'testingautoCU@mymail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/phoneNumberField"), "+6285747026"): Text '+6285747026' is set on object 'Object Repository/Sign Up Page - Brick/phoneNumberField'
+
+2021-10-30 16:54:23 - [MESSAGE][PASSED] - Text '+6285747026' is set on object 'Object Repository/Sign Up Page - Brick/phoneNumberField'
+
+2021-10-30 16:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/addressField"), "sawangan"): Text 'sawangan' is set on object 'Object Repository/Sign Up Page - Brick/addressField'
+
+2021-10-30 16:54:24 - [MESSAGE][PASSED] - Text 'sawangan' is set on object 'Object Repository/Sign Up Page - Brick/addressField'
+
+2021-10-30 16:54:24 - [TEST_STEP][PASSED] - password = "8SQVv/p9jVScEs4/2CZsLw==": null
+
+2021-10-30 16:54:24 - [TEST_STEP][PASSED] - map.put("password", password): null
+
+2021-10-30 16:54:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/passField"), password): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/confirmPassField"), password): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/confirmPassField'
+
+2021-10-30 16:54:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/confirmPassField'
+
+2021-10-30 16:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/registerBtn")): Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:54:26 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Sign Up Page - Brick/successMsg")), "Success"): Actual object 'Success' and expected object 'Success' are equal
+
+2021-10-30 16:54:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Sign Up Page - Brick/successMsg' is: 'Success'
+
+2021-10-30 16:54:26 - [MESSAGE][PASSED] - Actual object 'Success' and expected object 'Success' are equal
+
+2021-10-30 16:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/checkEmailNotice")): Object 'Object Repository/Sign Up Page - Brick/checkEmailNotice' is visible
+
+2021-10-30 16:54:27 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/checkEmailNotice' is visible
+
+2021-10-30 16:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/okBtn")): Object: 'Object Repository/Sign Up Page - Brick/okBtn' is clicked on
+
+2021-10-30 16:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/okBtn' is clicked on
+
+2021-10-30 16:54:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:54:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up Brick - Error Email" time="12.157" classname="Test Cases/Sign Up Brick - Error Email" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:54:28 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Error Email: Test Cases/Sign Up Brick - Error Email
+
+2021-10-30 16:54:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:54:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:54:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:54:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:54:30 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:54:33 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/firstNameField"), "aisyah"): Text 'aisyah' is set on object 'Object Repository/Sign Up Page - Brick/firstNameField'
+
+2021-10-30 16:54:33 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/Sign Up Page - Brick/firstNameField'
+
+2021-10-30 16:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/lastNameField"), "syahidah"): Text 'syahidah' is set on object 'Object Repository/Sign Up Page - Brick/lastNameField'
+
+2021-10-30 16:54:34 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/Sign Up Page - Brick/lastNameField'
+
+2021-10-30 16:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/emailField"), map.get("email")): Text 'testingautoCU@mymail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:35 - [MESSAGE][PASSED] - Text 'testingautoCU@mymail.com' is set on object 'Object Repository/Sign Up Page - Brick/emailField'
+
+2021-10-30 16:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Sign Up Page - Brick/phoneNumberField"), "+62826532"): Text '+62826532' is set on object 'Object Repository/Sign Up Page - Brick/phoneNumberField'
+
+2021-10-30 16:54:36 - [MESSAGE][PASSED] - Text '+62826532' is set on object 'Object Repository/Sign Up Page - Brick/phoneNumberField'
+
+2021-10-30 16:54:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/passField"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/passField'
+
+2021-10-30 16:54:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sign Up Page - Brick/confirmPassField"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/confirmPassField'
+
+2021-10-30 16:54:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign Up Page - Brick/confirmPassField'
+
+2021-10-30 16:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/registerBtn")): Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/registerBtn' is clicked on
+
+2021-10-30 16:54:38 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Sign Up Page - Brick/errorMsg")), "Error"): Actual object 'Error' and expected object 'Error' are equal
+
+2021-10-30 16:54:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Sign Up Page - Brick/errorMsg' is: 'Error'
+
+2021-10-30 16:54:39 - [MESSAGE][PASSED] - Actual object 'Error' and expected object 'Error' are equal
+
+2021-10-30 16:54:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Sign Up Page - Brick/emailNotice")): Object 'Object Repository/Sign Up Page - Brick/emailNotice' is visible
+
+2021-10-30 16:54:39 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up Page - Brick/emailNotice' is visible
+
+2021-10-30 16:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/okBtn")): Object: 'Object Repository/Sign Up Page - Brick/okBtn' is clicked on
+
+2021-10-30 16:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/okBtn' is clicked on
+
+2021-10-30 16:54:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:54:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Brick - Failed" time="0.455" classname="Test Cases/Login Brick - Failed" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Brick - Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-30 16:54:40 - [TEST_CASE][FAILED] - Test Cases/Login Brick - Failed: Test Cases/Login Brick - Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-30 16:54:40 - [TEST_STEP][FAILED] - navigateToUrl(url): Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Script1635586641257.run(Script1635586641257.groovy:21)
+	... 13 more
+)
+
+2021-10-30 16:54:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-10-30 16:54:41 - [MESSAGE][FAILED] - Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Script1635586641257.run(Script1635586641257.groovy:21)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2021-10-30 16:54:40 - [TEST_CASE][FAILED] - Test Cases/Login Brick - Failed: Test Cases/Login Brick - Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Brick - Success" time="13.686" classname="Test Cases/Login Brick - Success" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:54:41 - [TEST_CASE][PASSED] - Test Cases/Login Brick - Success: Test Cases/Login Brick - Success
+
+2021-10-30 16:54:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:54:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:54:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:54:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:54:42 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:54:45 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:54:45 - [TEST_STEP][PASSED] - click(findTestObject("Sign Up Page - Brick/loginLink")): Object: 'Object Repository/Sign Up Page - Brick/loginLink' is clicked on
+
+2021-10-30 16:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up Page - Brick/loginLink' is clicked on
+
+2021-10-30 16:54:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/emailField"), map.get("email")): Text 'testingautoCU@mymail.com' is set on object 'Object Repository/Page_Login/emailField'
+
+2021-10-30 16:54:47 - [MESSAGE][PASSED] - Text 'testingautoCU@mymail.com' is set on object 'Object Repository/Page_Login/emailField'
+
+2021-10-30 16:54:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login/passField"), map.get("password")): Text ****** has been set on object 'Object Repository/Page_Login/passField'
+
+2021-10-30 16:54:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/passField'
+
+2021-10-30 16:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/loginBtn")): Object: 'Object Repository/Page_Login/loginBtn' is clicked on
+
+2021-10-30 16:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/loginBtn' is clicked on
+
+2021-10-30 16:54:51 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Page_Login/errorSuccessMsg")), "Success"): Actual object 'Success' and expected object 'Success' are equal
+
+2021-10-30 16:54:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/errorSuccessMsg' is: 'Success'
+
+2021-10-30 16:54:52 - [MESSAGE][PASSED] - Actual object 'Success' and expected object 'Success' are equal
+
+2021-10-30 16:54:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/wrongNotice")): Object 'Object Repository/Page_Login/wrongNotice' is visible
+
+2021-10-30 16:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/wrongNotice' is visible
+
+2021-10-30 16:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/okBtn")): Object: 'Object Repository/Page_Login/okBtn' is clicked on
+
+2021-10-30 16:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/okBtn' is clicked on
+
+2021-10-30 16:54:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Dashboard/logoutLink")): Object 'Object Repository/Page_Brick Dashboard/logoutLink' is visible
+
+2021-10-30 16:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Dashboard/logoutLink' is visible
+
+2021-10-30 16:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Dashboard/logoutLink")): Object: 'Object Repository/Page_Brick Dashboard/logoutLink' is clicked on
+
+2021-10-30 16:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Dashboard/logoutLink' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-30 16:53:49 - [TEST_SUITE][FAILED] - Authentication: Test Cases/Login Brick - Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-10-30 16:53:49 - [TEST_SUITE][FAILED] - Authentication: Test Cases/Login Brick - Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://brick-qa-assignment.herokuapp.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Login Brick - Failed.run(Login Brick - Failed:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635587614683.run(TempTestSuite1635587614683.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EQE6D2I', ip: '192.168.203.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

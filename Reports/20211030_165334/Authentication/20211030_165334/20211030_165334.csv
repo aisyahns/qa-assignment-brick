@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentication,Chrome 95.0.4638.54,,,2021-10-30 16:53:49,2021-10-30 16:54:54,1m - 5.615s,FAILED
+,,,,,,,
+Test Cases/Sign Up Brick - Failed,Chrome 95.0.4638.54,,,2021-10-30 16:53:49,2021-10-30 16:54:13,23.558s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-30 16:53:50,2021-10-30 16:53:53,3.185s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.54,,,2021-10-30 16:53:53,2021-10-30 16:53:59,6.140s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/registerBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:53:59,2021-10-30 16:53:59,0.582s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorFirstName""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:53:59,2021-10-30 16:54:00,0.536s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorLastName""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:54:00,2021-10-30 16:54:00,0.494s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorEmail""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:54:00,2021-10-30 16:54:01,0.388s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorPass""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:54:01,2021-10-30 16:54:01,0.377s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorConfirmPass""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:54:01,2021-10-30 16:54:02,0.376s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/firstNameField""), ""aisyah"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:02,2021-10-30 16:54:02,0.754s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/lastNameField""), ""syahidah"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:02,2021-10-30 16:54:03,1.011s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/emailField""), ""aisyah87$%@gmail.com"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:03,2021-10-30 16:54:04,0.920s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/errorEmail""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:04,2021-10-30 16:54:05,0.510s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/emailField""), ""aisyah@gmail.c"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:05,2021-10-30 16:54:06,1.049s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/errorEmail""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:06,2021-10-30 16:54:06,0.479s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/emailField""), ""aisyah@gmail.com"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:06,2021-10-30 16:54:07,1.023s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/phoneNumberField""), ""+6282643767"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:07,2021-10-30 16:54:08,0.811s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/addressField""), ""sawangan"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:08,2021-10-30 16:54:09,0.718s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/passField""), ""NOZHw6sL/1I="")",Chrome 95.0.4638.54,,,2021-10-30 16:54:09,2021-10-30 16:54:10,0.613s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorPass""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:54:10,2021-10-30 16:54:10,0.450s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/passField""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 95.0.4638.54,,,2021-10-30 16:54:10,2021-10-30 16:54:10,0.418s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/confirmPassField""), ""NOZHw6sL/1I="")",Chrome 95.0.4638.54,,,2021-10-30 16:54:10,2021-10-30 16:54:11,0.566s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/registerBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:11,2021-10-30 16:54:11,0.492s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/errorConfirmPass""), CONTINUE_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-30 16:54:11,2021-10-30 16:54:12,0.495s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-10-30 16:54:12,2021-10-30 16:54:13,0.628s,PASSED
+,,,,,,,
+Test Cases/Sign Up Brick - Success,Chrome 95.0.4638.54,,,2021-10-30 16:54:13,2021-10-30 16:54:28,15.332s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-30 16:54:13,2021-10-30 16:54:14,1.439s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.54,,,2021-10-30 16:54:14,2021-10-30 16:54:19,4.977s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/firstNameField""), ""Aisyah"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:19,2021-10-30 16:54:20,0.751s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/lastNameField""), ""Syahidah"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:20,2021-10-30 16:54:21,0.716s,PASSED
+"randomMail = ""testingauto"" + RandomStringUtils.randomAlphanumeric(2) + ""@mymail.com""",Chrome 95.0.4638.54,,,2021-10-30 16:54:21,2021-10-30 16:54:21,0.011s,PASSED
+"map.put(""email"", randomMail)",Chrome 95.0.4638.54,,,2021-10-30 16:54:21,2021-10-30 16:54:21,0.024s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/emailField""), randomMail)",Chrome 95.0.4638.54,,,2021-10-30 16:54:21,2021-10-30 16:54:22,0.861s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/phoneNumberField""), ""+6285747026"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:22,2021-10-30 16:54:23,1.035s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/addressField""), ""sawangan"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:23,2021-10-30 16:54:24,0.725s,PASSED
+"password = ""8SQVv/p9jVScEs4/2CZsLw==""",Chrome 95.0.4638.54,,,2021-10-30 16:54:24,2021-10-30 16:54:24,0.000s,PASSED
+"map.put(""password"", password)",Chrome 95.0.4638.54,,,2021-10-30 16:54:24,2021-10-30 16:54:24,0.000s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/passField""), password)",Chrome 95.0.4638.54,,,2021-10-30 16:54:24,2021-10-30 16:54:24,0.576s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/confirmPassField""), password)",Chrome 95.0.4638.54,,,2021-10-30 16:54:24,2021-10-30 16:54:25,0.599s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/registerBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:25,2021-10-30 16:54:26,1.225s,PASSED
+"verifyEqual(getText(findTestObject(""Sign Up Page - Brick/successMsg"")), ""Success"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:26,2021-10-30 16:54:26,0.553s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/checkEmailNotice""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:26,2021-10-30 16:54:27,0.393s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/okBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:27,2021-10-30 16:54:27,0.376s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-10-30 16:54:27,2021-10-30 16:54:28,0.637s,PASSED
+,,,,,,,
+Test Cases/Sign Up Brick - Error Email,Chrome 95.0.4638.54,,,2021-10-30 16:54:28,2021-10-30 16:54:40,12.157s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-30 16:54:28,2021-10-30 16:54:30,1.403s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.54,,,2021-10-30 16:54:30,2021-10-30 16:54:33,2.808s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/firstNameField""), ""aisyah"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:33,2021-10-30 16:54:33,0.738s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/lastNameField""), ""syahidah"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:33,2021-10-30 16:54:34,0.730s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/emailField""), map.get(""email""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:34,2021-10-30 16:54:35,0.952s,PASSED
+"setText(findTestObject(""Sign Up Page - Brick/phoneNumberField""), ""+62826532"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:35,2021-10-30 16:54:36,1.089s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/passField""), ""p4y+y39Ir5MSxNs1t5lTZQ=="")",Chrome 95.0.4638.54,,,2021-10-30 16:54:36,2021-10-30 16:54:36,0.471s,PASSED
+"setEncryptedText(findTestObject(""Sign Up Page - Brick/confirmPassField""), ""p4y+y39Ir5MSxNs1t5lTZQ=="")",Chrome 95.0.4638.54,,,2021-10-30 16:54:36,2021-10-30 16:54:37,0.549s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/registerBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:37,2021-10-30 16:54:38,1.167s,PASSED
+"verifyEqual(getText(findTestObject(""Sign Up Page - Brick/errorMsg"")), ""Error"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:38,2021-10-30 16:54:39,0.484s,PASSED
+"verifyElementVisible(findTestObject(""Sign Up Page - Brick/emailNotice""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:39,2021-10-30 16:54:39,0.363s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/okBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:39,2021-10-30 16:54:39,0.372s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-10-30 16:54:39,2021-10-30 16:54:40,0.640s,PASSED
+,,,,,,,
+Test Cases/Login Brick - Failed,Chrome 95.0.4638.54,,,2021-10-30 16:54:40,2021-10-30 16:54:41,0.455s,FAILED
+navigateToUrl(url),Chrome 95.0.4638.54,,,2021-10-30 16:54:40,2021-10-30 16:54:41,0.088s,FAILED
+,,,,,,,
+Test Cases/Login Brick - Success,Chrome 95.0.4638.54,,,2021-10-30 16:54:41,2021-10-30 16:54:54,13.686s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-30 16:54:41,2021-10-30 16:54:42,1.314s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.54,,,2021-10-30 16:54:42,2021-10-30 16:54:45,2.957s,PASSED
+"click(findTestObject(""Sign Up Page - Brick/loginLink""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:45,2021-10-30 16:54:46,1.023s,PASSED
+"setText(findTestObject(""Page_Login/emailField""), map.get(""email""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:46,2021-10-30 16:54:47,0.869s,PASSED
+"setEncryptedText(findTestObject(""Page_Login/passField""), map.get(""password""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:47,2021-10-30 16:54:48,0.475s,PASSED
+"click(findTestObject(""Page_Login/loginBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:48,2021-10-30 16:54:51,3.799s,PASSED
+"verifyEqual(getText(findTestObject(""Page_Login/errorSuccessMsg"")), ""Success"")",Chrome 95.0.4638.54,,,2021-10-30 16:54:51,2021-10-30 16:54:52,0.510s,PASSED
+"verifyElementVisible(findTestObject(""Page_Login/wrongNotice""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:52,2021-10-30 16:54:52,0.379s,PASSED
+"click(findTestObject(""Page_Login/okBtn""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:52,2021-10-30 16:54:53,0.405s,PASSED
+"verifyElementVisible(findTestObject(""Page_Brick Dashboard/logoutLink""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:53,2021-10-30 16:54:53,0.614s,PASSED
+"click(findTestObject(""Page_Brick Dashboard/logoutLink""))",Chrome 95.0.4638.54,,,2021-10-30 16:54:53,2021-10-30 16:54:54,0.976s,PASSED

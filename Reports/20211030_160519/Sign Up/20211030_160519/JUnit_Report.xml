@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="51.699" tests="3" failures="1" errors="0">
+   <testsuite name="Sign Up" tests="3" failures="1" errors="0" time="51.699" skipped="0" timestamp="2021-10-30 16:05:35" hostname="Asus - DESKTOP-EQE6D2I" id="Test Suites/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asus\\Katalon Studio\\first project\\Reports\\20211030_160519\\Sign Up\\20211030_160519"/>
+         <property name="logFiles" value="C:\\Users\\Asus\\Katalon Studio\\first project\\Reports\\20211030_160519\\Sign Up\\20211030_160519\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-EQE6D2I"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="192.168.203.44"/>
+         <property name="sessionId" value="1a505625264b73df84c7ae2c24c8287f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up Brick - Failed" time="25.132" classname="Test Cases/Sign Up Brick - Failed" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:05:35 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Failed: Test Cases/Sign Up Brick - Failed
+
+2021-10-30 16:05:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:05:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:05:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:05:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:05:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:05:48 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:05:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorFirstName"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorFirstName' is visible
+
+2021-10-30 16:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorFirstName' is visible
+
+2021-10-30 16:05:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorLastName"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorLastName' is visible
+
+2021-10-30 16:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorLastName' is visible
+
+2021-10-30 16:05:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorEmail"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorEmail' is visible
+
+2021-10-30 16:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorEmail' is visible
+
+2021-10-30 16:05:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:05:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorConfirmPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/firstNameField"), "aisyah"): Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:05:50 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/lastNameField"), "syahidah"): Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:05:51 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah87$%@gmail.com"): Text 'aisyah87$%@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:05:52 - [MESSAGE][PASSED] - Text 'aisyah87$%@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/errorEmail")): Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah@gmail.c"): Text 'aisyah@gmail.c' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:05:53 - [MESSAGE][PASSED] - Text 'aisyah@gmail.c' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/errorEmail")): Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:05:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah@gmail.com"): Text 'aisyah@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:05:55 - [MESSAGE][PASSED] - Text 'aisyah@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/phoneNumberField"), "+6282643767"): Text '+6282643767' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:05:56 - [MESSAGE][PASSED] - Text '+6282643767' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:05:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/addressField"), "sawangan"): Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:05:56 - [MESSAGE][PASSED] - Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:05:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:05:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:05:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:05:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:05:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:05:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:05:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/confirmPassField"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:05:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:05:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorConfirmPass")): Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:05:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:05:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:06:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up Brick - Success" time="10.875" classname="Test Cases/Sign Up Brick - Success" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign Up Brick - Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)
+"/>
+         <system-out><![CDATA[2021-10-30 16:06:00 - [TEST_CASE][FAILED] - Test Cases/Sign Up Brick - Success: Test Cases/Sign Up Brick - Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)
+
+
+2021-10-30 16:06:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:06:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:06:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:06:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:06:05 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/firstNameField"), "Aisyah"): Text 'Aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:06:05 - [MESSAGE][PASSED] - Text 'Aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/lastNameField"), "Syahidah"): Text 'Syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:06:06 - [MESSAGE][PASSED] - Text 'Syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:06:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah65@gmail.com"): Text 'aisyah65@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:06:07 - [MESSAGE][PASSED] - Text 'aisyah65@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/phoneNumberField"), "+6285747026"): Text '+6285747026' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:06:08 - [MESSAGE][PASSED] - Text '+6285747026' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:06:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/addressField"), "sawangan"): Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:06:08 - [MESSAGE][PASSED] - Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:06:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:06:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:06:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/confirmPassField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:06:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:06:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:06:10 - [TEST_STEP][FAILED] - verifyEqual(getText(findTestObject("Page_Brick Sign Up Form/successMsg")), "Success"): Unable to verify equal between actual object 'Error' and expected object 'Success' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)
+)
+
+2021-10-30 16:06:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Brick Sign Up Form/successMsg' is: 'Error'
+
+2021-10-30 16:06:11 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'Error' and expected object 'Success' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2021-10-30 16:06:00 - [TEST_CASE][FAILED] - Test Cases/Sign Up Brick - Success: Test Cases/Sign Up Brick - Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up Brick - Error Email" time="14.931" classname="Test Cases/Sign Up Brick - Error Email" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:06:11 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Error Email: Test Cases/Sign Up Brick - Error Email
+
+2021-10-30 16:06:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:06:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-30 16:06:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:06:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:06:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:06:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:06:18 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:06:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/firstNameField"), "aisyah"): Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:06:19 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:06:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/lastNameField"), "syahidah"): Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:06:20 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah65@gmail.com"): Text 'aisyah65@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:06:20 - [MESSAGE][PASSED] - Text 'aisyah65@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/phoneNumberField"), "+62826532"): Text '+62826532' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:06:21 - [MESSAGE][PASSED] - Text '+62826532' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:06:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:06:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:06:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/confirmPassField"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:06:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:06:24 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Page_Brick Sign Up Form/errorMsg")), "Error"): Actual object 'Error' and expected object 'Error' are equal
+
+2021-10-30 16:06:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Brick Sign Up Form/errorMsg' is: 'Error'
+
+2021-10-30 16:06:25 - [MESSAGE][PASSED] - Actual object 'Error' and expected object 'Error' are equal
+
+2021-10-30 16:06:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/emailNotice")): Object 'Object Repository/Page_Brick Sign Up Form/emailNotice' is visible
+
+2021-10-30 16:06:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/emailNotice' is visible
+
+2021-10-30 16:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/okBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/okBtn' is clicked on
+
+2021-10-30 16:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/okBtn' is clicked on
+
+2021-10-30 16:06:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:06:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-30 16:05:35 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Sign Up Brick - Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-10-30 16:05:35 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Sign Up Brick - Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'Error' and expected object 'Success' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Sign Up Brick - Success.run(Sign Up Brick - Success:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635584719229.run(TempTestSuite1635584719229.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

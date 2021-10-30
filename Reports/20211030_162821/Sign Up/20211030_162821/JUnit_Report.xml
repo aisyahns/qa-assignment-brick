@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="49.02" tests="3" failures="0" errors="0">
+   <testsuite name="Sign Up" tests="3" failures="0" errors="0" time="49.02" skipped="0" timestamp="2021-10-30 16:28:33" hostname="Asus - DESKTOP-EQE6D2I" id="Test Suites/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asus\\Katalon Studio\\first project\\Reports\\20211030_162821\\Sign Up\\20211030_162821"/>
+         <property name="logFiles" value="C:\\Users\\Asus\\Katalon Studio\\first project\\Reports\\20211030_162821\\Sign Up\\20211030_162821\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-EQE6D2I"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="192.168.203.44"/>
+         <property name="sessionId" value="fdb70508200dca90ff6dd8a6001f31eb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up Brick - Failed" time="22.506" classname="Test Cases/Sign Up Brick - Failed" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:28:34 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Failed: Test Cases/Sign Up Brick - Failed
+
+2021-10-30 16:28:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:28:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:28:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:28:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:28:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:28:43 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:28:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:28:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorFirstName"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorFirstName' is visible
+
+2021-10-30 16:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorFirstName' is visible
+
+2021-10-30 16:28:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorLastName"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorLastName' is visible
+
+2021-10-30 16:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorLastName' is visible
+
+2021-10-30 16:28:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorEmail"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorEmail' is visible
+
+2021-10-30 16:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorEmail' is visible
+
+2021-10-30 16:28:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:28:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorConfirmPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:28:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/firstNameField"), "aisyah"): Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:28:46 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:28:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/lastNameField"), "syahidah"): Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:28:47 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:28:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah87$%@gmail.com"): Text 'aisyah87$%@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:28:48 - [MESSAGE][PASSED] - Text 'aisyah87$%@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:28:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/errorEmail")): Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:28:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah@gmail.c"): Text 'aisyah@gmail.c' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:28:49 - [MESSAGE][PASSED] - Text 'aisyah@gmail.c' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:28:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/errorEmail")): Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/errorEmail' is clicked on
+
+2021-10-30 16:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), "aisyah@gmail.com"): Text 'aisyah@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:28:51 - [MESSAGE][PASSED] - Text 'aisyah@gmail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:28:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/phoneNumberField"), "+6282643767"): Text '+6282643767' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:28:52 - [MESSAGE][PASSED] - Text '+6282643767' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:28:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/addressField"), "sawangan"): Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:28:53 - [MESSAGE][PASSED] - Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:28:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:28:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:28:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorPass"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:28:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorPass' is visible
+
+2021-10-30 16:28:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:28:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:28:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/confirmPassField"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:28:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:28:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:28:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/errorConfirmPass")): Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:28:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/errorConfirmPass' is visible
+
+2021-10-30 16:28:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:28:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up Brick - Success" time="13.081" classname="Test Cases/Sign Up Brick - Success" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:28:56 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Success: Test Cases/Sign Up Brick - Success
+
+2021-10-30 16:28:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:28:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:28:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:28:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:28:58 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:29:01 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:29:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/firstNameField"), "Aisyah"): Text 'Aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:29:02 - [MESSAGE][PASSED] - Text 'Aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:29:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/lastNameField"), "Syahidah"): Text 'Syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:29:02 - [MESSAGE][PASSED] - Text 'Syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:29:02 - [TEST_STEP][PASSED] - randomMail = "testingauto" + RandomStringUtils.randomAlphanumeric(2) + "@mymail.com": null
+
+2021-10-30 16:29:02 - [TEST_STEP][PASSED] - map.put("email", randomMail): null
+
+2021-10-30 16:29:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), randomMail): Text 'testingautoXs@mymail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:29:03 - [MESSAGE][PASSED] - Text 'testingautoXs@mymail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:29:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/phoneNumberField"), "+6285747026"): Text '+6285747026' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:29:04 - [MESSAGE][PASSED] - Text '+6285747026' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:29:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/addressField"), "sawangan"): Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:29:05 - [MESSAGE][PASSED] - Text 'sawangan' is set on object 'Object Repository/Page_Brick Sign Up Form/addressField'
+
+2021-10-30 16:29:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:29:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:29:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/confirmPassField"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:29:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:29:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:29:07 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Page_Brick Sign Up Form/successMsg")), "Success"): Actual object 'Success' and expected object 'Success' are equal
+
+2021-10-30 16:29:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Brick Sign Up Form/successMsg' is: 'Success'
+
+2021-10-30 16:29:08 - [MESSAGE][PASSED] - Actual object 'Success' and expected object 'Success' are equal
+
+2021-10-30 16:29:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/checkEmailNotice")): Object 'Object Repository/Page_Brick Sign Up Form/checkEmailNotice' is visible
+
+2021-10-30 16:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/checkEmailNotice' is visible
+
+2021-10-30 16:29:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/okBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/okBtn' is clicked on
+
+2021-10-30 16:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/okBtn' is clicked on
+
+2021-10-30 16:29:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:29:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up Brick - Error Email" time="12.603" classname="Test Cases/Sign Up Brick - Error Email" status="PASSED">
+         <system-out><![CDATA[2021-10-30 16:29:09 - [TEST_CASE][PASSED] - Test Cases/Sign Up Brick - Error Email: Test Cases/Sign Up Brick - Error Email
+
+2021-10-30 16:29:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-30 16:29:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-30 16:29:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-30 16:29:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-30 16:29:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:29:14 - [MESSAGE][PASSED] - Navigate to 'https://brick-qa-assignment.herokuapp.com/' successfully
+
+2021-10-30 16:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/firstNameField"), "aisyah"): Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:29:15 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/Page_Brick Sign Up Form/firstNameField'
+
+2021-10-30 16:29:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/lastNameField"), "syahidah"): Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:29:15 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/Page_Brick Sign Up Form/lastNameField'
+
+2021-10-30 16:29:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/emailField"), map.get("email")): Text 'testingautoXs@mymail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:29:16 - [MESSAGE][PASSED] - Text 'testingautoXs@mymail.com' is set on object 'Object Repository/Page_Brick Sign Up Form/emailField'
+
+2021-10-30 16:29:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Brick Sign Up Form/phoneNumberField"), "+62826532"): Text '+62826532' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:29:17 - [MESSAGE][PASSED] - Text '+62826532' is set on object 'Object Repository/Page_Brick Sign Up Form/phoneNumberField'
+
+2021-10-30 16:29:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/passField"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:29:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/passField'
+
+2021-10-30 16:29:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Brick Sign Up Form/confirmPassField"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:29:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Brick Sign Up Form/confirmPassField'
+
+2021-10-30 16:29:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/registerBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/registerBtn' is clicked on
+
+2021-10-30 16:29:20 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Page_Brick Sign Up Form/errorMsg")), "Error"): Actual object 'Error' and expected object 'Error' are equal
+
+2021-10-30 16:29:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Brick Sign Up Form/errorMsg' is: 'Error'
+
+2021-10-30 16:29:20 - [MESSAGE][PASSED] - Actual object 'Error' and expected object 'Error' are equal
+
+2021-10-30 16:29:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Brick Sign Up Form/emailNotice")): Object 'Object Repository/Page_Brick Sign Up Form/emailNotice' is visible
+
+2021-10-30 16:29:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Brick Sign Up Form/emailNotice' is visible
+
+2021-10-30 16:29:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Brick Sign Up Form/okBtn")): Object: 'Object Repository/Page_Brick Sign Up Form/okBtn' is clicked on
+
+2021-10-30 16:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Brick Sign Up Form/okBtn' is clicked on
+
+2021-10-30 16:29:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-30 16:29:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-30 16:28:33 - [TEST_SUITE][PASSED] - Sign Up: Test Cases/Sign Up Brick - Error Email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
